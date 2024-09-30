@@ -24,12 +24,26 @@ public static void addStatic(int num1, int num2){
 // Static multiplication
 // Static division
 
-    addStatic(num1:45, num2:89)
-    public static void addStatic(int num1, int num2) {
+
+    public static int addStatic(int num1, int num2) {
         System.out.println(num1 + num2)
+       int sum = add(num1:45, num2:89)
     }
 
-    public static void
+    public static int subtraction(int num3, int num4) {
+        return num3 - num4;
+    }
+
+    public static int multiply(int num5, int num6) {
+       return num5 * num6
+        multiply(num5:50, num6:90)
+    }
+
+    public static int divide(int num7, int num8) {
+       return num7 / num8
+               divide(num7:60, num8:2)
+    }
+
 
 // Receive two inputs (ints)
 // Return a single number (int, double)
